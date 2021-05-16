@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Install Dependencies
-        run: npm
+        run: npm install
       - name: Build
         run: npm build
       - name: Test
